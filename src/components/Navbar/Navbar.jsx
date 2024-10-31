@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { MagnifyingGlassIcon, ShoppingBagIcon, UserIcon } from '@heroicons/react/24/outline';
-import { getProductByCategory } from "../../data/asyncMock";
+import { getProductByCategory } from "/src/Data/asyncMock";
 const Navbar = () => {
   return (
     <header>

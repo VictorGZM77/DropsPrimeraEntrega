@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import products from '../../data/asyncMock';
+import products from '/src/Data/asyncMock';
 
 const ProductDetail = () => {
   const { id } = useParams();  
